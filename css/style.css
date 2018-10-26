@@ -1,0 +1,187 @@
+body {
+
+	background-color: #353535;
+}
+
+main {
+
+	font-family: 'Lato', sans-serif;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+header {
+
+	display: grid;
+	grid-template-columns: 150px auto;
+	grid-template-rows: 90px;
+	height: 90px;
+	background-color: #2b2a2a;
+	border: 2px solid black;
+}
+
+header > .headerTitle > h1 {
+
+	color: white;
+	font-size: 32px;
+	margin-top: 16px;
+
+	padding: 10px 15px;
+	border-left: 0.5px solid black;
+}
+
+header > .headerTitle > h1 > .cafeName {
+
+	color: lightgray;
+}
+
+header > .headerLogo {
+
+	margin-top: 22px;
+	margin-left: 30px;
+}
+
+article {
+
+	display: grid;
+	grid-template-columns: 500px auto;
+	grid-template-rows: 400px;
+	height: 400px;
+	background-color: #5b5959;
+	border-color: black;
+	border-width: 2px;
+	border-style: none solid solid solid;
+}
+
+article > .articleImage > img {
+
+	width: 400px;
+	height: 240px;
+	margin: 84px 0 30px 100px;
+	border: 1px solid black;
+	border-radius: 5px; 
+}
+
+article > .articleText {
+
+	margin-top: 48px;
+	margin-left: 40px;
+	color: #1d1e1e;
+}
+
+article > .articleText > h2 {
+
+	font-size: 32px;
+}
+
+article > .articleText > p {
+
+	margin-right: 205px;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+section {
+
+	display: grid;
+	grid-template-columns: 500px auto;
+	grid-template-rows: 400px;
+	background-color: #5b5959;
+	border-color: black;
+	border-width: 2px;
+	border-style: none solid solid solid;
+	height: 400px;
+}
+
+section > .sectionOrderButton {
+
+	font-size: 26px;
+	margin-top: 50px;
+	margin-left: 60px;
+}
+
+section > .sectionOrderButton > button {
+
+	color: black;
+	font-size: 32px;
+	background-color: #5b5959;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 40px 80px;
+	text-align: center;
+	margin-left: -5px;
+	width: 320px;
+}
+
+section > .sectionOrderButton > button:hover {
+
+	color: #5b5959;
+	background-color: black;
+	border: 2px solid #5b5959;
+}
+
+section > .sectionOrderButton > button:focus {
+
+	outline: 0;
+}
+
+section > #sectionRekening > #sectionDrank {
+
+	margin-top: 25px;
+	margin-left: 50px;
+	visibility: hidden;
+}
+
+section > #sectionRekening > #sectionSnack {
+
+	margin-left: 50px;
+	visibility: hidden;
+}
+
+section > #sectionRekening > div > h2 {
+
+	font-size: 25px;
+}
+
+section > #sectionRekening > div >  p {
+
+	font-size: 13px;
+	margin-left: 10px;
+}
+
+section > #sectionRekening > div > span {
+
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+section > #sectionRekening > #sectionRekeningTotal {
+
+	margin-left: 52px;
+}
+
+section > #sectionRekening > #sectionRekeningTotal > p {
+
+	font-size: 32px;
+	line-height: 3px;
+}
+
+footer {
+
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 90px;
+	height: 90px;
+	background-color: #2b2a2a;
+	border-color: black;
+	border-width: 2px;
+	border-style: none solid solid solid;
+}
+
+footer > p {
+
+	color: gray;
+	font-size: 15px;
+	margin: 36px auto;
+}
